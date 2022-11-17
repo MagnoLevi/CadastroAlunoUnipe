@@ -1,0 +1,103 @@
+body{
+    margin: 10px 30px 0 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #BBD2EC;
+}
+
+label{
+    font-size: 18px;
+}
+
+input{
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+
+.divInput{  
+    width: 30%;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #003b71;
+    color: white;
+}
+
+.titleDivInput{
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.divInputGroup{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.inputGroup{
+    width: 48%;
+}
+
+.lineInputGroup{
+    background-color: gray;
+    height: 162px;
+    width: 2px;
+}
+
+.inputField{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.divBtnInsertAluno{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.btnInsertAluno{
+    cursor: pointer;
+    padding: 10px;
+    border: 2px solid #1b7ced;
+    background-color: #1b7ced;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btnInsertAluno:hover{
+    background-color: white;
+    color: #1b7ced;
+}
+
+#alertTextInput{
+    margin-right: 20px; 
+    color: red;
+}
+
+
+.table{
+    width: 100%;
+}
+
+.thead{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #003b71;
+    color: white;
+    text-align: center;
+}
+
+.tbody{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bg-gray{
+    background-color: lightgray;
+}
+
+.bg-white{
+    background-color: white;
+}

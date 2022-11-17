@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div>
+        <div class="divInput">
+            <div class="titleDivInput">
+                Cadastro de Alunos
+            </div>
+
+            <div class="divInputGroup">
+                <div class="inputGroup">
+
+                    <div class="inputField">
+                        <label for="alunoMatricula">Matricula</label>
+                        <input type="number" id="alunoMatricula" style="width: 100px;">
+                    </div>
+                    <div class="inputField">
+                        <label for="alunoNome">Nome</label>
+                        <input type="text" id="alunoNome">
+                    </div>
+
+                </div>
+
+                <div class="lineInputGroup"></div>
+
+                <div class="inputGroup" >
+
+                    <div class="inputField">
+                        <label for="alunoNota1">Nota 1</label>
+                        <input type="number" max="10" id="alunoNota1" style="width: 50px;">
+                    </div>
+
+                    <div class="inputField">
+                        <label for="alunoNota2">Nota 2</label>
+                        <input type="number" max="10" id="alunoNota2" style="width: 50px;">
+                    </div>
+
+                    <div class="inputField">
+                        <label for="alunoNota3">Nota 3  </label>
+                        <input type="number" max="10" id="alunoNota3" style="width: 50px;">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="divBtnInsertAluno">
+                <span id="alertTextInput"></span>
+                <button class="btnInsertAluno" onclick="insertAluno()">Inserir Aluno</button>
+            </div>
+
+        </div>
+
+        <div class="divTable">
+            <table class="table">
+                <thead class="thead">
+                    <tr>
+                        <td>Matrícula</td>
+                        <td>Nome</td>
+                        <td>Nota 1</td>
+                        <td>Nota 2</td>
+                        <td>Nota 3</td>
+                        <td>Média</td>
+                        <td>#</td>
+                    </tr>
+                </thead>
+                <tbody class="tbody" id="tbodyAluno" style="border: 2px solid background;">
+                    <tr>
+                        <td id="tbodyAlunoEmpty" colspan="99" style="text-align: center;">Nenhum Aluno Inserido</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</body>
+
+    <script src="Aluno.js"></script>
+
+</html>
